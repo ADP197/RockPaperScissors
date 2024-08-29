@@ -1,0 +1,51 @@
+.container{
+	display: flex;
+	flex-direction: column;
+}
+#scoreboard{
+	display: flex;
+	justify-content: center;
+}
+
+#play_area{
+	display: flex;
+	border: 1px solid black;
+}
+#user_pre{
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid black;
+}
+
+img{
+	height: 250px;
+	width: 250px;
+}
+
+#rock{
+	border-bottom: 1px solid black;
+}
+
+#paper{
+	border-bottom: 1px solid black;
+}
+
+#user_choice{
+	
+	height: auto;
+	width: 250px;
+	display: flex; 
+	flex-direction: column;
+	justify-content:center;
+}
+
+#chosen{
+	border: 1px solid black;
+	height: 250px;
+	width: 250px;
+}
+
+#user_content{
+	display: flex;
+	gap: 50px;
+}
